@@ -1,0 +1,27 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>> Tecnologias usadas >>>>>>>>>>>>>>>>>>>>>>
+
+Bootstrap versão 4.1.1
+Html 5
+Css3
+Flexbox
+Js do Bootstrap
+
+>>Software para codificação<<
+Brackets
+
+------------------------------------------------------------
+
+Boostrap Utilizado como base para o css e a grid do site.
+
+Layout desenvlvido pela arquitetura do site.
+
+Primeiro fiz uma pesquisa de conteudo de alguns portais;
+Foi pensada a arquitetura das inforamções e seu equilibrio de visualização;
+Foi criado um wireframe com a disposição das informações (Photoshop);
+Logo em seguida foi feita a implementação;
+Testes e ajustes para a versão mobile.
+
+
+
+

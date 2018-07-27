@@ -11,8 +11,12 @@ body {
   }
 }
 
-/*--------- new changes  -------------*/
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+/*--------- new changes  -------------*/
 
 
 .fixed-top {
@@ -53,6 +57,10 @@ header {
     margin: 10px 0 0 0;
 }
 
+.box-news a {
+   text-decoration: none;
+}
+
 
 .box-news .box img {
     width: 100%;
@@ -64,9 +72,8 @@ header {
 
 .social-media .box-media {
     width: 100%;
-    padding: 25px 0px 25px 25px;
+    padding: 10px 5px 0px 5px;
     background-color: #0072d3;
-    webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -120,21 +127,99 @@ header {
 }
 
 
-.card-img-overlay:hover {
-    background: #000000;
-    opacity: 0.5;
-    webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+.line-text h3 {
+    color: #0072d3;
+    border-bottom: 1px dotted #555555;
 }
 
+.line-text span {
+    color: #0072d3;
+    font-size: 12px;
+}
 
+footer h5 {
+    color: #888888;
+}
+
+footer p {
+    color: #666666;
+}
+
+footer a {
+    color: #666666;
+    display: block;
+    
+}
+
+footer a:hover {
+    color: #0072d3;
+    text-decoration: none;
+}
 
 
 /*---- media query ---*/
 
+@media (max-width: 1024px) {
+    
+    .navbar-toggler {
+        border: none;
+    }
+    
+    .navbar-toggler-icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .navbar-collapse {
+        background-color: #0072d3;
+        margin: 12px 0 0 0;
+        padding: 20px;
+    }
+    
+    .fa-bars {
+        color: #f2f2f2;
+    }
+    
+    .dropdown-menu {
+        background: none;
+        border: none;
+    }
+    
+    .navbar a:hover {
+        color: #333333;
+    }
+    
+}
+
 @media (max-width: 700px) {
+    
+    .navbar-toggler {
+        border: none;
+    }
+    
+    .navbar-toggler-icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .navbar-collapse {
+        background-color: #0072d3;
+        margin: 12px 0 0 0;
+        padding: 20px;
+    }
+    
+    .fa-bars {
+        color: #f2f2f2;
+    }
+    
+    .dropdown-menu {
+        background: none;
+        border: none;
+    }
+    
+    .navbar a:hover {
+        color: #333333;
+    }
     
     .box-news {
         flex-wrap: wrap;
